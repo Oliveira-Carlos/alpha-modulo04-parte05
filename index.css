@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+body{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo,violet);
+}
+#size{
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgb(0, 162, 65);
+}
+#weight{
+    width: 500px;
+    height: 250px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgb(0, 162, 65);
+    font-size: 40px;
+}
+#decoration{
+    width: 600px;
+    height:300px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgb(0, 162, 65);
+    font-size: 40px;
+}
+#direction{
+    width: 900px;
+    height:600px;
+    border-radius: 50px;
+    border-style: solid;
+    margin: 10px auto;
+    padding: 2px;
+    background-color: rgb(0, 162, 65);
+    font-size: 40px;
+    font-family: 'Noto Serif JP', serif;
+    writing-mode: vertical-rl;
+}
+#um{
+    font-size: 20px;
+}
+#dois{
+    font-size: 40px;
+}
+#tres{
+    font-size: 60px;
+}
+#duzentos{
+    font-weight: 200;
+}
+#quatrossentos{
+    font-weight: 400;
+}
+#setessentos{
+    font-weight: 700;
+}
+#underline{
+    text-decoration: underline;
+}
+#overline{
+    text-decoration: overline;
+}
+#line-through{
+    text-decoration: line-through;
+}
